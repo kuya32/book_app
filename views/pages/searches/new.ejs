@@ -3,13 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Book App</title>
+  <title>Form</title>
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/base.css">
   <link rel="stylesheet" href="styles/layout.css">
   <link rel="stylesheet" href="styles/modules.css">
 </head>
 <body>
-  <h1>Hello World!</h1>
+  <h1>Form</h1>
+
+  <form action='/searches' method='POST'>
+    <fieldset>
+      <legend>Searches</legend>
+      <label for='title'>Title: </label>
+      <input type='text' name='title'>
+      <input type='submit' value='Check for book'>
+    </fieldset>
+  </form>
 </body>
 </html>
