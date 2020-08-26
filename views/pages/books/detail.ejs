@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <%- include('../../layout/head') %>
+
+<body>
+
+  <%- include('../../layout/header') %>
+  
+  <h1><%= books.title %></h1>
+  <h2><%= books.author %></h2>
+  <img src='<%= books.image_url %>' alt=''>
+  <p><%= books.isbn %></p>
+  <p><%= books.description %></p>
+
+  <%- include('../../layout/footer') %>
+
+</body>
+</html>

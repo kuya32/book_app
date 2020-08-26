@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Form</title>
-  <link rel="stylesheet" href="styles/reset.css">
-  <link rel="stylesheet" href="styles/base.css">
-  <link rel="stylesheet" href="styles/layout.css">
-  <link rel="stylesheet" href="styles/modules.css">
-</head>
+
+  <%- include('../../layout/head') %>
+
 <body>
+
+  <%- include('../../layout/header') %>
+
   <h1>Form</h1>
 
   <form action='/searches' method='POST'>
@@ -20,5 +17,8 @@
       <input type='submit' value='Check for book'>
     </fieldset>
   </form>
+
+  <%- include('../../layout/footer') %>
+
 </body>
 </html>
