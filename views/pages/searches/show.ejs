@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <%- include('../../layout/head') %>
+
+<body>
+
+  <%- include('../../layout/header') %>
+
+  <form action='/books' method='POST'>
+    <fieldset>
+      <legend>Save Book to Collection</legend>
+      <select name='bookList'>
+
+        <% for (let i = 0; i < bookArrayKuya.length; i++){ %>
+          <option value='<%= JSON.stringify(bookArrayKuya[i]) %>'> <%= bookArrayKuya[i].title %> </option> 
+       <% } %>
+
+      </select>
+      <input type='submit' value='Save Book to Collection'>
+    </fieldset>
+  </form>
+
+  <ul>
+    <% for (let i = 0; i < bookArrayKuya.length; i++){ %>
+      <li>
+        <h1><%= bookArrayKuya[i].title %></h1>
+        <img src='<%= bookArrayKuya[i].image_url %>' alt="">
+        <h2><%= bookArrayKuya[i].author %></h2>
+        <p><%= bookArrayKuya[i].description %></p>
+        <p>ISBN: <%=bookArrayKuya[i].isbn %></p>
+      </li>
+   <% } %>
+  </ul>
+
+    <%- include('../../layout/footer') %>
+
+</body>
+</html>

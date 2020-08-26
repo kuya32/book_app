@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Book App</title>
-  <link rel="stylesheet" href="styles/reset.css">
-  <link rel="stylesheet" href="styles/base.css">
-  <link rel="stylesheet" href="styles/layout.css">
-  <link rel="stylesheet" href="styles/modules.css">
-</head>
+
+  <%- include('../layout/head') %>
+
 <body>
-  <h1>Hello World!</h1>
+
+  <%- include('../layout/header') %>
+
+  <h1></h1>
+  <ul>
+    <% books.forEach(books => { %>
+      <li>
+        <h2>
+          <a href='/1'><%= books.title %> - <%= books.author %></a>
+        </h2>
+        <img src='<%= books.image_url %>' alt=''>
+        <p><%= books.isbn %></p>
+        <p><%= books.description %></p>
+      </li>
+  <% }) %>
+  </ul>
+  <h2><%= books.length %></h2>
+
+  <%- include('../layout/footer') %>
+
 </body>
 </html>
