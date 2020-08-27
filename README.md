@@ -68,3 +68,89 @@ Estimate of time needed to complete:
 Start time:
 Finish time:
 Actual time needed to complete:
+
+### Feature #7: As a user, I want all of my saved books to be displayed on the home page so that I can view all of the books from my collection in a single view
+
+Estimate of time needed to complete:
+Start time:
+Finish time:
+Actual time needed to complete:
+
+### Feature #8: As a user, I want to request information about a single book so that I can view its additional details and share it by URL
+
+Estimate of time needed to complete:
+Start time:
+Finish time:
+Actual time needed to complete:
+
+### Feature #9: As a user, I want the ability to add new books to my application so that I can save search results
+
+Estimate of time needed to complete:
+Start time:
+Finish time:
+Actual time needed to complete:
+
+### Feature #10: As a user, I want the application to be designed in a consistent way so that I do not experience any down time or slow load times
+
+Estimate of time needed to complete:
+Start time:
+Finish time:
+Actual time needed to complete:
+
+### Feature #11: As a user, I want a simple, clean-looking UI so that my application is easy to navigate
+
+Estimate of time needed to complete:
+Start time:
+Finish time:
+Actual time needed to complete:
+
+### Feature #12: As a user, I want to update the details of a book so that it displays the way I want it to, according to my personalized preferences
+
+Estimate of time needed to complete:
+Start time:
+Finish time:
+Actual time needed to complete:
+
+### Feature #13: As a user, I want to remove books from my collection so that it accurately represents my favorite books
+
+Estimate of time needed to complete:
+Start time:
+Finish time:
+Actual time needed to complete:
+
+## Time Estimates STRETCH
+
+### STRETCH Feature #1 : As a developer, I want to explore further functionality so that I can continue to improve the user's experience
+
+Estimate of time needed to complete:
+Start time:
+Finish time:
+Actual time needed to complete:
+
+### STRETCH Feature #2: As a developer, I want to automatically populate the database so my application is functioning efficiently
+
+Estimate of time needed to complete:
+Start time:
+Finish time:
+Actual time needed to complete:
+
+### STRETCH Feature #3: As a user, I want to organize my books by author so that I can view all of the books that a single author has written and view the details about their work
+
+Estimate of time needed to complete:
+Start time:
+Finish time:
+Actual time needed to complete:
+
+### STRETCH Feature #4: As a user, I want to use sprite sheets for my form elements so that my form is unique
+
+Estimate of time needed to complete:
+Start time:
+Finish time:
+Actual time needed to complete:
+
+### STRETCH Feature #5: As a developer, I want to alter the application to support the new database and allow the user to browse their bookshelves visually
+
+Estimate of time needed to complete:
+Start time:
+Finish time:
+Actual time needed to complete:

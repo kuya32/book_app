@@ -6,11 +6,12 @@
 <body>
 
   <%- include('../../layout/header') %>
-  
+
+  <img src='<%= books.image_url %>' alt=''>
   <h1><%= books.title %></h1>
   <h2><%= books.author %></h2>
-  <img src='<%= books.image_url %>' alt=''>
-  <p><%= books.isbn %></p>
+  <p>ISBN: <%= books.isbn %></p>
+  <p>Bookshelf: <%= books.bookshelf %></p>
   <p><%= books.description %></p>
 
   <%- include('../../layout/footer') %>
