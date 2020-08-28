@@ -7,18 +7,19 @@
 
   <%- include('../../layout/header') %>
 
-  <h1>Book Library</h1>
+  <h1 class='titles'>Book Library</h1>
 
   <ul>
     <% for (let i = 0; i < bookArrayKuya.length; i++){ %>
-      <li>
+    <div class='bookResults'>
+      <li class='bookList'>
         <img src='<%= bookArrayKuya[i].image_url %>' alt="">
         <h2><%= bookArrayKuya[i].title %></h2>
         <h2><%= bookArrayKuya[i].author %></h2>
         <p>ISBN: <%=bookArrayKuya[i].isbn %></p>
         <p>Bookshelf: <%=bookArrayKuya[i].bookshelf %></p>
         <p><%= bookArrayKuya[i].description %></p>
-
+        
         <form action='/books' method='POST'>
           <input name='image_url' type='hidden' value='<%= bookArrayKuya[i].image_url %>'>
           <input name='title' type='hidden' value='<%= bookArrayKuya[i].title %>'>
@@ -29,10 +30,11 @@
           <input type='submit' value='Save Book to Collection'>
         </form>
       </li>
+    </div>
    <% } %>
   </ul>
 
-    <%- include('../../layout/footer') %>
+  <%- include('../../layout/footer') %>
 
 </body>
 </html>

@@ -23,97 +23,98 @@
 
 ## Credits and Collaborations
 
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+- Shout out to Nich, Skyler and Chance for helping me sort out most of the functionality to the book app!
+- [Added circles for the footer](https://www.w3schools.com/howto/howto_css_circles.asp)
 
 ## Time Estimates
 
 ### Feature #1: As a user, I want my application to load quickly so that I have an enjoyable experience
 
-Estimate of time needed to complete:
+Estimate of time needed to complete: 1 hour
 Start time:
 Finish time:
 Actual time needed to complete:
 
 ### Feature #2: As a user, I want to search the Google Books API so that I can view the results of my search
 
-Estimate of time needed to complete:
+Estimate of time needed to complete: 1 hour
 Start time:
 Finish time:
 Actual time needed to complete:
 
 ### Feature #3: As a user, I want to be able to browse the search results
 
-Estimate of time needed to complete:
+Estimate of time needed to complete: 1 hour
 Start time:
 Finish time:
 Actual time needed to complete:
 
 ### Feature #4: As a user, I want to view any error messages that occur during the usage of my book list application so that I know if something has gone wrong
 
-Estimate of time needed to complete:
+Estimate of time needed to complete: 1 hour
 Start time:
 Finish time:
 Actual time needed to complete:
 
 ### Feature #5: As a user, I want a simple, clean looking UI so that my application is easy to navigate
 
-Estimate of time needed to complete:
+Estimate of time needed to complete: 1 hour
 Start time:
 Finish time:
 Actual time needed to complete:
 
 ### Feature #6: As a user, I want the application to have a home page, so that I can see see relevant information
 
-Estimate of time needed to complete:
+Estimate of time needed to complete: 1 hour
 Start time:
 Finish time:
 Actual time needed to complete:
 
 ### Feature #7: As a user, I want all of my saved books to be displayed on the home page so that I can view all of the books from my collection in a single view
 
-Estimate of time needed to complete:
+Estimate of time needed to complete: 1 hour
 Start time:
 Finish time:
 Actual time needed to complete:
 
 ### Feature #8: As a user, I want to request information about a single book so that I can view its additional details and share it by URL
 
-Estimate of time needed to complete:
+Estimate of time needed to complete: 1 hour
 Start time:
 Finish time:
 Actual time needed to complete:
 
 ### Feature #9: As a user, I want the ability to add new books to my application so that I can save search results
 
-Estimate of time needed to complete:
+Estimate of time needed to complete: 1 hour
 Start time:
 Finish time:
 Actual time needed to complete:
 
 ### Feature #10: As a user, I want the application to be designed in a consistent way so that I do not experience any down time or slow load times
 
-Estimate of time needed to complete:
+Estimate of time needed to complete: 1 hour
 Start time:
 Finish time:
 Actual time needed to complete:
 
 ### Feature #11: As a user, I want a simple, clean-looking UI so that my application is easy to navigate
 
-Estimate of time needed to complete:
+Estimate of time needed to complete: 1 hour
 Start time:
 Finish time:
 Actual time needed to complete:
 
 ### Feature #12: As a user, I want to update the details of a book so that it displays the way I want it to, according to my personalized preferences
 
-Estimate of time needed to complete:
+Estimate of time needed to complete: 1 hour
 Start time:
 Finish time:
 Actual time needed to complete:
 
 ### Feature #13: As a user, I want to remove books from my collection so that it accurately represents my favorite books
 
-Estimate of time needed to complete:
+Estimate of time needed to complete: 1 hour
 Start time:
 Finish time:
 Actual time needed to complete:
