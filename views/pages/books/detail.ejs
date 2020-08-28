@@ -1,20 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  <%- include('../../layout/head') %>
-
-<body>
-
-  <%- include('../../layout/header') %>
-
+<div id='singleView'>
   <img src='<%= books.image_url %>' alt=''>
   <h1><%= books.title %></h1>
   <h2><%= books.author %></h2>
+  <p><%= books.description %></p>
   <p>ISBN: <%= books.isbn %></p>
   <p>Bookshelf: <%= books.bookshelf %></p>
-  <p><%= books.description %></p>
 
-  <%- include('../../layout/footer') %>
+  <%- include('edit.ejs') %>
 
-</body>
-</html>
+</div>  

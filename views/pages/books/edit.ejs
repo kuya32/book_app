@@ -1,13 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
+<form id='update' action='/books/<%= books.id %>?_method=PUT' method='POST'>
+  Image : <input type='text' value='<%= books.image_url %>' name='image_url'>
+  Title : <input type='text' value='<%= books.title %>' name='title'>
+  Author : <input type='text' value='<%= books.author %>' name='author'>
+  ISBN : <input type='text' value='<%= books.isbn %>' name='isbn'>
+  Bookshelf : <select name='bookshelf'>
+                <option value='<%= books.bookshelf %>'><%= books.bookshelf %></option>
+              </select>
+  Description : <input type='text' value='<%= books.description %>' name='description'>
+  <input type='submit' value='Update Details'>
+</form>
 
-  <%- include('../../layout/head') %>
-
-<body>
-
-  <%- include('../../layout/header') %>
-
-  <%- include('../../layout/footer') %>
-
-</body>
-</html>
+<form action='/books/<%= books.id %>?_method=DELETE' method='POST'>
+  <input id='delete' type='submit' value='Delete Book'>
+</form>

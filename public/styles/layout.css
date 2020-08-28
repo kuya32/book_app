@@ -1,0 +1,95 @@
+.titles {
+  clear: both;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(77, 77, 77);
+  color: whitesmoke;
+  height: 50px;
+}
+
+.homePageList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchForms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-color: grey;
+  height: 50px;
+  margin: auto;
+  width: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.bookList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#singleView {
+  width: 480px;
+  background-color: rgb(199, 199, 199);
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px 0px 45px 0px;
+  border: outset 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#singleView > h2 {
+  font-size: 14px;
+  margin: 10px 0px 35px 0px;
+}
+
+#singleView > p:nth-child(4) {
+  width: 375px;
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px 15px 30px;
+}
+
+#singleView > p:nth-child(5) {
+  margin: 25px 0px 15px 0px;
+}
+
+#singleView > p:nth-child(6) {
+  margin-bottom: 35px;
+}
+
+#update {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#update > input:last-child {
+  margin-top: 15px;
+}
+
+#delete {
+  width: 178px;
+  margin-top: 35px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  background-color: black;
+}

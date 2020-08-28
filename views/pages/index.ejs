@@ -7,38 +7,23 @@
 
   <%- include('../layout/header') %>
 
-  <h1>Home: Book Collection</h1>
+  <h1 class='titles'>Home: <%= books.length %> Saved Books</h1>
 
   <ul>
     <% books.forEach(books => { %>
-      <li>
-        <img src='<%= books.image_url %>' alt=''>
-        <h2>
-          <a href='/1'><%= books.title %> - <%= books.author %></a>
-        </h2>
-        <p><%= books.isbn %></p>
-        <p><%= books.bookshelf %></p>
-        <p><%= books.description %></p>
-      </li>
-        
-        <form action='/<%= books.id %>?_method=DELETE' method='POST'>
-          <input type='submit' value='Delete Book'>
-        </form>
-        
-        <form action='/<%= books.id %>?_method=PUT' method='POST'>
-          Image : <input type='text' name='image'>
-          Title : <input type='text' name='title'>
-          Author : <input type='text' name='author'>
-          ISBN : <input type='text' name='isbn'>
-          Bookshelf : <input type='text' name='bookshelf'>
-          Description : <input type='text' name='description'>
-
-          <input type='submit' value='Update Book'>
-        </form>
-
+      <div class='homePage'>
+        <a href='/books/<%= books.id %>'>
+          <li class='homePageList'>
+            <img src='<%= books.image_url %>' alt=''>
+            <h2>
+              <%= books.title %> - <%= books.author %>
+            </h2>
+            <p><%= books.bookshelf %></p>
+          </li>
+        </a>
+        </div>
   <% }) %>
   </ul>
-  <h2><%= books.length %></h2>
 
   <%- include('../layout/footer') %>
 
